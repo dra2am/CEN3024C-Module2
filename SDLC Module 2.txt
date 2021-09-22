@@ -1,0 +1,21 @@
+Solution Plan:
+
+Import URL to get webpage
+
+Import Scanner class to read webpage
+
+instantiate url class with url to be read
+
+get contents of webpage with url.openStream()
+
+instantiate StringBuffer class to hold result (string buffer is a string that can be modified)
+
+iterate through each line in the page
+
+iterate through each word on that page
+
+store each word as a key in a hashtable and the number of times it shows up as a value
+
+Logic for the hashtable : if word exists, add +1 to value field of that word, else, add new word and value of 1. 
+
+sort hashmap based on values with Iterator and TreeMap , show only 20 values
